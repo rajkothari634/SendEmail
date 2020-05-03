@@ -5,8 +5,8 @@ from email.mime.base import MIMEBase
 from email import encoders
 import xlrd
 
-email_user = 'hackslash.nitp@gmail.com'
-email_password = 'cipherbogs'
+email_user = ''
+email_password = ''
 loc = ("emailids.xlsx") 
 wb = xlrd.open_workbook(loc) 
 sheet = wb.sheet_by_index(0)
